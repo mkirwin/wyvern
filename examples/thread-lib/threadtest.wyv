@@ -1,0 +1,5 @@
+require java
+require stdout
+import thread 
+
+stdout.print("test\n")

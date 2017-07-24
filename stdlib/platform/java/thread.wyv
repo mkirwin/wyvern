@@ -1,0 +1,5 @@
+module def thread(java:Java)
+import java:wyvern.stdlib.support.WyvernThread.wyvernThread
+
+def run():Unit
+    wyvernThread.run()
